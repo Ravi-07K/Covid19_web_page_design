@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(4, 62, 107);
+        }
+        
+        .nav {
+            padding: 0;
+            list-style: none;
+            background: Red;
+            text-align: center;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+        }
+        
+        .nav .item {
+            display: inline-block;
+        }
+        
+        .nav .item a {
+            display: block;
+            padding: 5px 15px;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        
+        .nav .item a:hover {
+            color: black;
+            background: orange;
+        }
+        
+        .heading {
+            text-align: center;
+            color: khaki;
+        }
+        
+        .heading p {
+            width: 50%;
+            text-align: justify;
+            padding-left: 25%;
+            padding-top: 40px;
+            color: khaki;
+        }
+        
+        .h_meter {
+            margin: 10px;
+            text-align: center;
+            padding-top: 30px;
+            color: khaki;
+        }
+        
+        .meter table {
+            border-collapse: collapse;
+            margin: 20px;
+            margin-left: 32px;
+        }
+        
+        .meter td,
+        th {
+            border: 2px solid white;
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+        
+        .meter tr:nth-child(even) {
+            background-color: brown;
+        }
+        
+        .meter tr:nth-child(odd) {
+            background-color: goldenrod;
+        }
+        
+        .meter tr:nth-child(4) {
+            background-color: rgb(53, 134, 241);
+        }
+        
+        .india h2 {
+            text-align: center;
+            padding-top: 30px;
+            color: khaki;
+        }
+        
+        .india img {
+            width: 45%;
+            padding-left: 29%;
+            padding-top: 15px;
+        }
+        
+        .india p {
+            width: 45%;
+            text-align: justify;
+            padding-left: 29%;
+            padding-top: 10px;
+            color: khaki;
+        }
+        
+        .india .btn {
+            margin: 90px;
+            padding-left: 40%;
+            padding-top: 10px;
+        }
+        
+        .india .btn input {
+            padding: 40px, 60px;
+            background-color: #BCA136;
+            color: black;
+            border: 4px solid black;
+            font-size: 22px;
+        }
+        
+        .india .btn input:hover {
+            background-color: red;
+            color: white;
+        }
+        
+        span {
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="item">
+            <a href="">Home</a>
+        </div>
+        <div class="item">
+            <a href="">Emergencies</a>
+        </div>
+        <div class="item">
+            <a href="">Health Topic</a>
+        </div>
+        <div class="item">
+            <a href="">News Room</a>
+        </div>
+        <div class="item">
+            <a href="">About us</a>
+        </div>
+        <div class="item">
+            <a href="">Contact</a>
+        </div>
+    </div>
+    <div class="heading">
+        <h1>What Is Covid-19 ?</h1>
+        <p>
+            Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older
+            people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness. The best way to prevent and slow down transmission is be well informed
+            about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face. The COVID-19 virus spreads primarily
+            through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).
+        </p>
+    </div>
+    <h2 class="h_meter">Covid WorldMeter</h2>
+    <div class="meter">
+        <center>
+            <table>
+
+                <tr>
+                    <th>Country</th>
+                    <th>Total Cases</th>
+                    <th>Active Cases</th>
+                    <th>Total Deaths</th>
+                    <th>Total Recovered</th>
+                </tr>
+                <tr>
+                    <td>USA</td>
+                    <td>5,199,444</td>
+                    <td>2,369,126 </td>
+                    <td>165,617</td>
+                    <td>2,664,701</td>
+                </tr>
+                <tr>
+                    <td>Brazil</td>
+                    <td>3,035,582</td>
+                    <td>815,986 </td>
+                    <td>101,136</td>
+                    <td>2,118,460 </td>
+                </tr>
+                <tr>
+                    <td>India</td>
+                    <td>2,217,645</td>
+                    <td>636,887</td>
+                    <td>44,499</td>
+                    <td>1,536,259</td>
+                </tr>
+                <tr>
+                    <td>Russia</td>
+                    <td>892,654</td>
+                    <td>180,972</td>
+                    <td>15,001</td>
+                    <td>696,681</td>
+                </tr>
+
+                <tr>
+                    <td>South Africa</td>
+                    <td>559,859</td>
+                    <td>137,977</td>
+                    <td>10,408</td>
+                    <td>411,474</td>
+                </tr>
+
+            </table>
+        </center>
+    </div>
+    <div class="india">
+        <h2>Covid In India</h2>
+        <img src="covid3.jpg" alt="">
+        <p>India crossed <span text-color:white><strong>22 lakh,10 thousand</strong></span> novel coronavirus cases today on a day the country reported over<span text-color:white><strong> 62,000 cases,</strong></span> in its steepest one-day jump. The total
+            number of cases is now <span text-colr:white><strong>2,217,645</strong></span> and the number of deaths linked to the contagion is close to 45,000. India has the world's<span text-color:white><strong> third highest number</strong></span> behind
+            the United States, and Brazil. Data from state health departments show an increase of over 15,000 cases just this evening - India's coronavirus tally was 21.95 lakh cases in the morning. Over 44,000 patients have died due to the deadly virus
+            in the country since the beginning of the pandemic. The country's recovery rate stood at 69.33 per cent this morning.
+        </p>
+        <div class="btn">
+            <input type="button" value="Read More">
+        </div>
+
+    </div>
+</body>
+
+</html>
